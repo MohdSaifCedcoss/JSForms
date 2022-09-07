@@ -1,0 +1,45 @@
+body {
+  background-color: azure;
+}
+
+.main {
+  width: 50%;
+  border: 2px dashed brown;
+  border-radius: 10px;
+  padding: auto;
+  text-align: center;
+  margin: auto;
+  background-color: antiquewhite;
+}
+.form {
+  margin-top: -6%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 22px;
+  color: rgb(243, 11, 11);
+}
+#result {
+    color:red
+}
+#age{
+    text-align: center;
+    border-radius: 5px;
+    background-color: bisque;
+    height: 20px;
+    width: 130px;
+    margin: auto;
+}
+#weight{
+    text-align: center;
+    border-radius: 5px;
+    background-color: bisque;
+    height: 20px;
+    width: 130px;
+    margin: auto;
+}
+#age1 {
+  margin-right: -5%;
+}
+/* #submit {
+    width: 80px;
+    height: 30px;
+} */
