@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Main Div which will have all the components -->
     <div style="margin-top: 13%" class="main">
+
       <div class="heading">
+
         <h1
+
           style="
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
               sans-serif;
@@ -21,26 +25,39 @@
           "
         >
           Know Your Health !
+
         </h1>
+
         <br /><br />
       </div>
+
+      <!-- Form to take the value from the user -->
       <form class="form">
+
         <label for="age" id="age1"
           >Age
           <input type="text" id="age" placeholder="Enter your Age" /> </label
-        ><br /><br />
+        >
+        <br /><br />
+
         <label for="weight"
           >Weight
-          <input
-            type="text"
-            id="weight"
-            placeholder="Enter your Weight"
-          /> </label
-        ><br /><br />
-        <button id="submit" onclick="calculate()">Submit</button><br />
+          <input type="text" id="weight" placeholder="Enter your Weight"> </label
+        >
+        <br /><br />
+        
+        <!-- When clicking the submit button it will call the function which will tell the result -->
+        <input type="button" id="submit" onclick="calculate()" value="Submit"></button><br /> 
+        
+        <!-- a p element which will tell us the result -->
         <p id="result">Wait For Results !</p>
+      
       </form>
+    
     </div>
+  
   </body>
+  
   <script src="index.js"></script>
+
 </html>

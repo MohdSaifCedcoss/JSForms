@@ -1,7 +1,6 @@
 body {
   background-color: azure;
 }
-
 .main {
   width: 50%;
   border: 2px dashed brown;
@@ -18,28 +17,32 @@ body {
   color: rgb(243, 11, 11);
 }
 #result {
-    color:red
+  color: red;
 }
-#age{
-    text-align: center;
-    border-radius: 5px;
-    background-color: bisque;
-    height: 20px;
-    width: 130px;
-    margin: auto;
+#age {
+  text-align: center;
+  border-radius: 5px;
+  background-color: bisque;
+  height: 20px;
+  width: 130px;
+  margin: auto;
 }
-#weight{
-    text-align: center;
-    border-radius: 5px;
-    background-color: bisque;
-    height: 20px;
-    width: 130px;
-    margin: auto;
+#weight {
+  text-align: center;
+  border-radius: 5px;
+  background-color: bisque;
+  height: 20px;
+  width: 130px;
+  margin: auto;
 }
 #age1 {
   margin-right: -5%;
 }
-/* #submit {
-    width: 80px;
-    height: 30px;
-} */
+#submit {
+  color: rgb(243, 11, 11);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+}
